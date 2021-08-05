@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>NTL - Extraindo o melhor da tecnoligia</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/lightmode/geralsecondary.css" id="light-theme">
+  <link rel="stylesheet" href="css/darkmode/geral.css" id="dark-theme">
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+</head>
+
+<body class="index-page sidebar-collapse" id="dark-theme || light-theme">
+  <div id="loading" class="carregar">
+    <div class="progress" id="progress"></div>
+  </div>
+  <div id="conteudo" style="display: none;color: white;">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="300">
+      <div class="container">
+        <div class="navbar-translate">
+          <a class="navbar-brand" href="home.html" rel="tooltip" title="" data-placement="bottom">
+            <img src="img/Rectangle 2.png" class="nomeempresa">
+            <br />
+          </a>
+          <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+            aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-bar bar1"></span>
+            <span class="navbar-toggler-bar bar2"></span>
+            <span class="navbar-toggler-bar bar3"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse justify-content-end   menu" id="navigation">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#empresa">A EMPRESA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="servicos.html">SERVIÇOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">NOSSOS TRABALHOS</a>
+            </li>
+            <li class="nav-item">
+              <div class="troca-container ">
+                <input id="troca-sombra" class="troca troca--sombra btn-toggle" type="checkbox">
+                <label for="troca-sombra" class=""></label>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger btncontato" href="#contato">CONTATOS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- <img src="https://www.spacex.com/static/images/backgrounds-2021/hls-resized-2.webp" class="img-fluid img-inicial"> -->
+    <section class="sectioninicio" id="sectioninicio">
+      <div class="page-header" id="inicio">
+        <div class="row featurette  container">
+          <div class="col-md-6 order-xs-3">
+            <h2 class="featurette-heading textoinicio">
+              NTL: A melhor relação entre a tecnologia e o ser humano.
+            </h2>
+            <p class="descricao-inicio mt-2 mb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a elementum orci, sit amet rutrum ligula.
+              Sed nec eros
+              augue. Sed eget ornare arcu. Nulla vel nunc purus. Phasellus laoreet.
+            </p>
+            <!-- <div>
+              <a href="#contato" class="botao-inicio faleconosco">FALE CONOSCO</a>
+            </div> -->
+            <div class="col-xs-12 mt-5">
+              <div class="social-media-list pb-5">
+                <a class="social-media social-media-light" href="https://pt-br.facebook.com/" target="_blank">
+                  <img src="img/facebook.png" />
+                  <span>Curtir</span>
+                </a>
+                <a class="social-media social-media-light" href="https://www.instagram.com/?hl=pt-br" target="_blank">
+                  <img src="img/instagram.png" />
+                  <span>Seguir</span>
+                </a>
+
+                <a class="social-media social-media-light" href="https://web.whatsapp.com/" target="_blank">
+                  <img src="img/whatsapp.png" />
+                  <span>Chamar</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="img/computer.png" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container mb-5 mt-5" id="empresa">
+      <div class="pb-5 container">
+        <h1 class="text-center">A empresa</h1>
+        <!-- <div class=" linha-gradiente"></div> -->
+        <p class="pt-5 descricao-missao" id="perguntasFrequentes" data-children=".pergunta">
+          A NTL é uma empresa que
+          há mais de 30 anos acredita que uma instituição de sucesso
+          resulta da harmonização entre tecnologia de ponta disponível
+          e a excelência do seu capital humano.<br><br>
+          Sempre se destacou reconhecidamente no segmento de soluções
+          em tecnologia da informação e com o passar do tempo foi estendendo
+          sua atuação para área de recursos humanos, especializando-se na
+          alocação de mão-de-obra e formação de equipes especializadas para
+          diversas áreas corporativas.
+          <br><br>
+        <div id="saibamais" class="collapse" role="tabpanel">
+          <p class="descricao-missao">É inevitável que com toda experiência adquirida, a empresa utilize
+            seu laboratório de engenharia de desenvolvimento de sistemas para
+            criar soluções que favoreçam a usabilidade do software que
+            pode ser acoplado a um pacote de serviços customizados, que vão
+            desde estruturação de infra tecnológica, consultorias até contratação
+            de mão-de-obra para empresas de todos os porte, ou seja, a NTL -
+            Nova Tecnologia é notadamente uma empresa full service.
+          </p>
+        </div>
+        <a data-toggle="collapse" data-parent="#perguntasFrequentes" href="#saibamais" aria-expanded="true"
+          aria-controls="saibamais" class="btnsaiba">Saiba mais<i class="bi bi-arrow-up-short"></i></a>
+        </p>
+      </div>
+    </section>
+    <section class="container">
+      <div class="pt-5 container">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="titulo-missao color-title">
+              Saiba qual é a nossa
+              missão<br> com você.
+            </h2>
+            <div class="linha-gradiente"></div>
+            <p class="descricao-missao">
+              Apoiar e ser fator de sucesso no desenvolvimento dos processos de TI de nossos clientes.
+              <br><br>
+              Oferecer aos nossos clientes um ambiente mais propicio para o desenvolvimento dos seus negócios. Com
+              produtos de
+              tecnologia e soluções específicas aplicadas às melhores práticas.
+            </p>
+            <!-- <a href="#" target="blank" class="botao1 ligue mt-5">LIGUE JÁ</a> -->
+          </div>
+          <div class="col-md-5">
+            <div class="row col-xs-12">
+              <div class="col col-xs-6 ">
+                <div class="card-4 mb-4 card-light card-dark">
+                  <div class="card-header"><span><img src="img/dashboard.png" class="icone"></span></div>
+                  <div class="card-body">
+                    <h4 class="card-h4-light card-h4-dark">Home<br>insurance</h4>
+                    <p class="card-p-light card-p-dark">Some quick example text to build on the card title and make
+                      up
+                      the bulk of the
+                      card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-xs-6 ">
+                <div class="card-4 mb-4 card-light card-dark">
+                  <div class="card-header"><span><img src="img/dashboard.png" class="icone"></span></div>
+                  <div class="card-body">
+                    <h4 class="card-h4-light card-h4-dark">Home<br>insurance</h4>
+                    <p class="card-p-light card-p-dark">Some quick example text to build on the card title and make
+                      up
+                      the bulk of the
+                      card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row col-xs-12">
+              <div class="col col-xs-6 ">
+                <div class="card-4 mb-4 card-light card-dark">
+                  <div class="card-header"><span><img src="img/dashboard.png" class="icone"></span></div>
+                  <div class="card-body">
+                    <h4 class="card-h4-light card-h4-dark">Home<br>insurance</h4>
+                    <p class="card-p-light card-p-dark">Some quick example text to build on the card title and make
+                      up
+                      the bulk of the
+                      card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-xs-6 ">
+                <div class="card-4 mb-4 card-light card-dark">
+                  <div class="card-header"><span><img src="img/dashboard.png" class="icone"></span></div>
+                  <div class="card-body">
+                    <h4 class="card-h4-light card-h4-dark">Home<br>insurance</h4>
+                    <p class="card-p-light card-p-dark">Some quick example text to build on the card title and make
+                      up
+                      the bulk of the
+                      card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <div class="container section-politica">
+        <h1 class="text-center titulo-politica">
+          Política de Qualidade.</h1>
+        <div class="row container">
+          <p class="text-center descricao-politica">A NTL expressa seu compromisso com a qualidade,
+            buscando satisfazer as necessidades de seus clientes,
+            aperfeiçoando a relação com os seus fornecedores e
+            desenvolvendo seus colaboradores, mantendo-os
+            atualizados com os lançamentos do mercado.<br><br>
+            Com busca permanente de melhores resultados, a NTL pesquisa e incorpora novos produtos e melhores práticas.
+            Para assim
+            oferecer soluções atualizadas e com qualidade vencedora.
+          </p>
+        </div>
+        <!-- <div class="text-center divescolha">
+          <h3>Por que nos escolher ?</h3>
+          <h1 class="escolha">Existem duas coisas que tornam a Nova Tecnologia especial</h1>
+          <p class="paragrafoescolha">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta
+            felis euismod semper. Praesent commodo
+            cursus magna, vel</p>
+        </div> -->
+      </div>
+    </section>
+    <div class="container sobre" id="sobre">
+      <section class="cd-horizontal-timeline section-timeline ">
+        <h1 class="text-center  mt-5">Nossa historia</h1>
+        <div class="timeline">
+          <div class="events-wrapper">
+            <div class="events">
+              <ol>
+                <li class="teste"><a href="#0" data-date="16/01/2014" class="selected">1988</a></li>
+                <li><a href="#0" data-date="28/02/2014">1990</a></li>
+                <li><a href="#0" data-date="20/04/2014">1992</a></li>
+                <li><a href="#0" data-date="20/05/2014">1993</a></li>
+                <li><a href="#0" data-date="09/07/2014">1994</a></li>
+                <li class="teste"><a href="#0" data-date="30/08/2014">1995</a></li>
+                <li class="teste"><a href="#0" data-date="15/09/2014">1997</a></li>
+                <li><a href="#0" data-date="01/11/2014">1999</a></li>
+                <li><a href="#0" data-date="12/12/2014">2001</a></li>
+                <li class="teste"><a href="#0" data-date="30/01/2015">2002</a></li>
+                <li class="teste"><a href="#0" data-date="30/02/2015">2004</a></li>
+                <li><a href="#0" data-date="30/03/2015">2006</a></li>
+                <li><a href="#0" data-date="30/04/2015">2008</a></li>
+                <li><a href="#0" data-date="30/05/2015">2009</a></li>
+              </ol>
+              <span class="filling-line" aria-hidden="true"></span>
+            </div> <!-- .events -->
+          </div> <!-- .events-wrapper -->
+          <ul class="cd-timeline-navigation">
+            <li> <a href="#0" class="prev inactive"></a></li>
+            <li><a href="#0" class="next"></a></li>
+          </ul> <!-- .cd-timeline-navigation -->
+        </div> <!-- .timeline -->
+        <div class="events-content">
+          <ol>
+            <li class="selected" data-date="16/01/2014">
+              <h2>Fundação</h2>
+              <em>Suporte UNIX Redes</em>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae
+                ipsa,
+                quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur
+                quae,
+                ut
+                harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet
+                quibusdam
+                quisquam, quae, temporibus dolores porro doloribus.
+              <p><a href="#linkinterno" style="color: red;">ver mais</a></p>
+              </p>
+            </li>
+            <li data-date="28/02/2014">
+              <h2>Abrangência Nacional</h2>
+              <em>Marinha, Shell, EDS, Dataprev, CVRD, Banco Nacional</em>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae
+                ipsa,
+                quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur
+                quae,
+                ut
+                harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet
+                quibusdam
+                quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </li>
+            <li data-date="20/04/2014">
+              <h2>Fim da Reserva de Mercado</h2>
+              <em>Atuação com Fabricantes</em>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae
+                ipsa,
+                quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur
+                quae,
+                ut
+                harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet
+                quibusdam
+                quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </li>
+            <li data-date="20/05/2014">
+              <h2>Inicio Parceria EDISA/HP</h2>
+              <em>May 20th, 2014</em>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae
+                ipsa,
+                quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur
+                quae,
+                ut
+                harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet
+                quibusdam
+                quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </li>
+            <li data-date="09/07/2014">
+              <h2>Service Desk</h2>
+              <em>NASEG</em>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae
+                ipsa,
+                quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur
+                quae,
+                ut
+                harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet
+                quibusdam
+                quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </li>
+            <li data-date="30/08/2014">
+              <h2>Provedor ANTARES</h2>
+              <em></em>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae
+                ipsa,
+                quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur
+                quae, ut
+                harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet
+                quibusdam
+                quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </li>
+            <li data-date="15/09/2014">
+              <h2>ISO 9000</h2>
+              <em></em>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae
+                ipsa,
+                quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur
+                quae, ut
+                harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet
+                quibusdam
+                quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </li>
+            <li data-date="01/11/2014">
+              <h2>Organização da área de RH</h2>
+              <em></em>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae
+                ipsa,
+                quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur
+                quae, ut
+                harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet
+                quibusdam
+                quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </li>
+            <li data-date="12/12/2014">
+              <h2>Microsoft Partner</h2>
+              <em>January 16th, 2014</em>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae
+                ipsa,
+                quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur
+                quae,
+                ut
+                harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet
+                quibusdam
+                quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </li>
+            <li data-date="30/01/2015">
+              <h2>Revista Exame</h2>
+              <em>PMI, ITIL, ITSM.</em>
+              <p>
+                Revista Exame 100
+                <br>Maiores integradores nacionais de 2002.
+              </p>
+            </li>
+            <li data-date="30/02/2015">
+              <h2>Revista Exame</h2>
+              <em>CMMI, Cobit.</em>
+              <p>
+                Revista Exame 100
+                <br>Maiores integradores nacionais de 2002.
+                <br>Criação do departamento de desenvolvimento de sistemas.
+              </p>
+            </li>
+            <li data-date="30/03/2015">
+              <h2>Prêmio AIRUMÃ</h2>
+              <em>Micro 100</em>
+              <p>
+                Micro 100 se torna o novo protfólio de produtos.
+                <br>Prêmio AIRUMÃ de excelência em canais de serviço.
+              </p>
+            </li>
+            <li data-date="30/04/2015">
+              <h2>Double Take e Watch Guard</h2>
+              <em>Imagens das logos</em>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae
+                ipsa,
+                quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur
+                quae,
+                ut
+                harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet
+                quibusdam
+                quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </li>
+            <li data-date="30/05/2015">
+              <h2>Mensageria</h2>
+              <em>Mensasgeria, filial de Campinas e filial de Macaé.</em>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae
+                ipsa,
+                quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur
+                quae,
+                ut
+                harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet
+                quibusdam
+                quisquam, quae, temporibus dolores porro doloribus.
+              </p>
+            </li>
+          </ol>
+        </div> <!-- .events-content -->
+      </section>
+    </div>
+    <section class="oquefazemos container" id="oquefazemos">
+      <div class="pt-5 container section-margin">
+        <div class="row featurette">
+          <div class="col-md-6 order-md-2 b-3" id="perguntasFrequentes" data-children=".pergunta">
+            <h2 class="titulo-servico">
+              Todos os serviços que você precisa.
+            </h2>
+            <div class="pergunta">
+              <p class="pontospositivos">
+                <span class="circle"><i class="bi bi-check2"></i></span>
+                <a data-toggle="collapse" data-parent="#perguntasFrequentes" href="#pergunta1" aria-expanded="true"
+                  aria-controls="pergunta1">Serviço de apoio administrativo <i class="bi bi-arrow-down"></i></a>
+              <div id="pergunta1" class="collapse" role="tabpanel">
+                <p>I. Administração de Serviços.
+                  <br>II. Locação de Mão de Obra.
+                </p>
+              </div>
+              <hr class="hr-light hr-dark">
+              </p>
+            </div>
+            <div class="pergunta">
+              <p class="pontospositivos">
+                <span class="circle"><i class="bi bi-check2"></i></span>
+                <a data-toggle="collapse" data-parent="#perguntasFrequentes" href="#pergunta2" aria-expanded="true"
+                  aria-controls="pergunta2">Informática</a>
+              <div id="pergunta2" class="collapse" role="tabpanel">
+                <p>I. Consultoria, Suporte e Manutenção:
+                  <br>&nbsp •Infraestrutura de Hardware.
+                  <br>&nbsp •Infraestrutura de Software.
+                  <br>&nbsp &nbsp Servidores.
+                  <br>&nbsp &nbsp Elementos de Rede.
+                  <br>&nbsp &nbsp Micros e Estações.
+                  <br>&nbsp &nbsp Impressoras.
+                  <br>II. Desenvolvimento de Sistemas.
+                  <br>&nbsp •Fábrica de Softwares.
+                  <br>&nbsp •Administração de Suporte de Legados.
+                  <br>III. Serviços Web.
+                  <br>IV. Alocação de Mão de Obra Especializada.
+                </p>
+              </div>
+              <hr class="hr-light hr-dark">
+              </p>
+            </div>
+            <div class="pergunta">
+              <p class="pontospositivos">
+                <span class="circle"><i class="bi bi-check2"></i></span>
+                <a data-toggle="collapse" data-parent="#perguntasFrequentes" href="#pergunta3" aria-expanded="true"
+                  aria-controls="pergunta3">Sistema de automação das rotinas administrativas</a>
+              <div id="pergunta3" class="collapse" role="tabpanel">
+                <p>I. Software como Serviços (SaaS).
+                  <br>II. Administração de Serviços.
+                </p>
+              </div>
+              <hr class="hr-light hr-dark">
+              </p>
+            </div>
+            <a href="servicos.html" class="">
+              <p class="text-center saibamais">Saiba mais...</p>
+            </a>
+          </div>
+          <div class="col-md-6 mt-5">
+            <img src="img/technology3.png" class="img-fluid mt-5" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="grid-section container portfolio " id="portfolio">
+      <h1 class="titulo mt-5 subtitulo mb-5 mt-5" id="portfolio">Trabalhos</h1>
+      <ul class="portfolio-lista" data-tab="menu">
+        <li>
+          <img src="img/pexels-cottonbro-5483077.jpg">
+        </li>
+        <li>
+          <img src="img/pexels-cottonbro-5483077.jpg">
+        </li>
+        <li>
+          <img src="img/computer.png" id="linkinterno">
+        </li>
+        <li>
+          <img src="img/pexels-cottonbro-5483077.jpg">
+        </li>
+        <li>
+          <img src="img/pexels-cottonbro-5483077.jpg">
+        </li>
+        <li>
+          <img src="img/pexels-cottonbro-5483077.jpg">
+        </li>
+      </ul>
+      <div class="portfolio-descricao " data-tab="content">
+        <section data-anime="show-right">
+          <h2>Projeto1</h2>
+          <p>As raposas são portfolio mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte
+            médio,
+            caracterizados
+            por um focinho comprido e uma cauda longa e peluda.</p>
+          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
+          </p>
+          <p>As raposas são portfolio mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte
+            médio,
+            caracterizados
+            por um focinho comprido e uma cauda longa e peluda.</p>
+        </section>
+        <section data-anime="show-right">
+          <h2>Projeto2</h2>
+          <p>As raposas são portfolio mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte
+            médio,
+            caracterizados
+            por um focinho comprido e uma cauda longa e peluda.</p>
+          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
+          </p>
+          <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas
+            verdadeiras", do
+            qual a raposa vermelha é a mais comum.</p>
+          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
+          </p>
+          <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas
+            verdadeiras", do
+            qual a raposa vermelha é a mais comum.</p>
+          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
+          </p>
+        </section>
+        <section data-anime="show-down">
+          <h2>Projeto3</h2>
+          <p>As raposas são portfolio mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte
+            médio,
+            caracterizados
+            por um focinho comprido e uma cauda longa e peluda.</p>
+          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
+          </p>
+          <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas
+            verdadeiras", do
+            qual a raposa vermelha é a mais comum.</p>
+          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
+          </p>
+        </section>
+        <section data-anime="show-down">
+          <h2>Projeto4</h2>
+          <p>As raposas são portfolio mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte
+            médio,
+            caracterizados
+            por um focinho comprido e uma cauda longa e peluda.</p>
+          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
+          </p>
+          <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas
+            verdadeiras", do
+            qual a raposa vermelha é a mais comum.</p>
+          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
+          </p>
+        </section>
+        <section data-anime="show-right">
+          <h2>Projeto5</h2>
+          <p>As raposas são portfolio mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte
+            médio,
+            caracterizados
+            por um focinho comprido e uma cauda longa e peluda.</p>
+          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
+          </p>
+          <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas
+            verdadeiras", do
+            qual a raposa vermelha é a mais comum.</p>
+          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
+          </p>
+        </section>
+        <section data-anime="show-right">
+          <h2>Projeto6</h2>
+          <p>As raposas são portfolio mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte
+            médio,
+            caracterizados
+            por um focinho comprido e uma cauda longa e peluda.</p>
+          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
+          </p>
+          <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas
+            verdadeiras", do
+            qual a raposa vermelha é a mais comum.</p>
+          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
+          </p>
+        </section>
+      </div>
+    </section>
+    <section class="container portfolio-celular" id="">
+      <h1 class="titulo">um pouco sobre nosso trabalho</h1>
+      <div class="linha2"></div>
+      <div class="nossotrabalho" data-anime="scroll">
+        <ul class="custom-controls">
+          <!-- <li><img src="img/caraprogramando.jpg" alt="" /></li>
+                            <li><img src="img/galerarindo.jpg" alt="" /></li>
+                            <li><img src="img/conferência.jpg" alt="" /></li>
+                            <li><img src="img/que_setup.jpg" alt="" /></li>
+                            <li><img src="img/moçabonita.jpg" alt="" /></li>
+                            <li><img src="img/conversando.jpg" alt="" /></li> -->
+        </ul>
+        <div class="slide-wrapper">
+          <ul class="slide">
+            <li>
+              <div class="card-trabalho">
+                <img class="card-trabalho-img" src="img/caraprogramando.jpg" alt="Card image cap">
+                <h3 class="">É um cara programando</h3>
+                <p class="paragrafo-card">Essa é a explicação do cara programando.
+                  <br>Essa é a explicação do cara programando programando.
+
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="card-trabalho">
+                <img class="card-trabalho-img" src="img/galerarindo.jpg" alt="Card image cap">
+                <h3 class="">É um cara programando</h3>
+                <p class="">Essa é a explicação do cara programando.
+                  <br>Essa é a explicação do cara programando programando.
+                  <br>Essa é a explicação do cara programando.
+                  <br>Essa é a explicação do cara programando programando.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="card-trabalho">
+                <img class="card-trabalho-img" src="img/conferencia.jpg" alt="Card image cap">
+                <h3 class="">É um cara programando</h3>
+                <p class="">Essa é a explicação do cara programando.
+                  <br>Essa é a explicação do cara programando programando.
+                  <br>Essa é a explicação do cara programando.
+                  <br>Essa é a explicação do cara programando programando.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="card-trabalho">
+                <img class="card-trabalho-img" src="img/galerarindo.jpg" alt="Card image cap">
+                <h3 class="">É um cara programando</h3>
+                <p class="">Essa é a explicação do cara programando.
+                  <br>Essa é a explicação do cara programando programando.
+                  <br>Essa é a explicação do cara programando.
+                  <br>Essa é a explicação do cara programando programando.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="card-trabalho">
+                <img class="card-trabalho-img" src="img/galerarindo.jpg" alt="Card image cap">
+                <h3 class="">É um cara programando</h3>
+                <p class="">Essa é a explicação do cara programando.
+                  <br>Essa é a explicação do cara programando programando.
+                  <br>Essa é a explicação do cara programando.
+                  <br>Essa é a explicação do cara programando programando.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="card-trabalho">
+                <img class="card-trabalho-img" src="img/galerarindo.jpg" alt="Card image cap">
+                <h3 class="">É um cara programando</h3>
+                <p class="">Essa é a explicação do cara programando.
+                  <br>Essa é a explicação do cara programando programando.
+                  <br>Essa é a explicação do cara programando.
+                  <br>Essa é a explicação do cara programando programando.
+                </p>
+              </div>
+            </li>
+            <!-- <li><img src="img/conversando.jpg" alt="" /></li> -->
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="container" id="clientes">
+      <div class="section-clientes container">
+        <h2 class="text-start">Nossos clientes</h2>
+        <div class="linhaunidade"></div>
+        <div class="row text-center mb-5">
+          <div>
+            <img class="clientes" src="img/hp.png">
+            <img class="clientes" src="img/ufrrj.png">
+            <img class="clientes" src="img/Michelin.png">
+            <!-- </div> -->
+            <!-- <div> -->
+            <img class="clientes" src="img/positivo.png">
+            <img class="clientes" src="img/eletrobras.png">
+            <img class="clientes" src="img/iphan.png">
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="body-light body-dark">
+      <section class="unidades container" id="unidades">
+        <div class=" container pb-5 ">
+          <h1 class="text-start textunidade">Unidades</h1>
+          <div class="linhaunidade"></div>
+        </div>
+        <div class="row text-center col-xs-12">
+          <div class="col col-xs-6">
+            <img
+              src="https://www.fiap.com.br/wp-content/themes/fiap2016/images/fiap/institucional/unidades/paulista.jpg"
+              class="img-fluid unidadesimg ">
+            <div class="mt-5">
+              <h3 class="localidade">Rio de janeiro</h3>
+              <p>Av. Lins de Vasconcelos,
+                1222 e 1264</p>
+              <a href="https://goo.gl/maps/QxbBpJSzhF258FaF8" target="blank" class="vermapa">VER MAPA</a>
+            </div>
+          </div>
+          <div class="col col-xs-6">
+            <img
+              src="https://www.fiap.com.br/wp-content/themes/fiap2016/images/fiap/institucional/unidades/paulista.jpg"
+              class=" img-fluid unidadesimg" />
+            <div class="mt-5">
+              <h3 class="localidade">São Paulo</h3>
+              <p>Av. Lins de Vasconcelos,
+                1222 e 1264</p>
+              <a href="#" target="blank" class="vermapa" id="vermapa">VER MAPA</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer footer-light mt-5">
+        <div class="container p-5" id="contato">
+          <div class="row col col-lg-12">
+            <div class="col-6 col-md-3">
+              <img class="bd-placeholder-img" src="img/Rectangle 2.png">
+              <small class="d-block mb-3 text-muted ms-5">&copy; 1980-2021</small>
+            </div>
+            <div class="col-6 col-md-3">
+              <h5>Redes Sociais</h5>
+              <ul class="list-unstyled text-small">
+                <li><a class="link-secondary" href="https://pt-br.facebook.com/" target="_blank">Facebook</a>
+                </li>
+                <li><a class="link-secondary" href="https://www.instagram.com/?hl=pt-br" target="_blank">Instragram</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-3">
+              <h5>Redes Sociais</h5>
+              <ul class="list-unstyled text-small">
+                <li><a class="link-secondary" href="https://pt-br.facebook.com/" target="_blank">Facebook</a>
+                </li>
+                <li><a class="link-secondary" href="https://www.instagram.com/?hl=pt-br" target="_blank">Instragram</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-3">
+              <h5>Localização e Contato</h5>
+              <ul class="">
+                <p>Rio de Janeiro</p>
+                <p>Rua Visconde de Inhaúma, 38
+                  7º andar - Centro
+                  Rio de Janeiro - RJ
+                  (21) 3523-7300
+                  (21) 2233-6226'
+                </p>
+              </ul>
+            </div>
+          </div>
+          </footer>
+      </section>
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+      <script type="text/javascript" src="js/app.js"></script>
+      <script type="text/javascript" src="js/geral.js"></script>
+      <script type="text/javascript" src="js/main.js"></script>
+      <script type="text/javascript" src="js/slide.js"></script>
+      <script type="text/javascript" src="js/timeline.js"></script>
+      <script type="text/javascript" src="js/carrousel.js"></script>
+      <script src="https://cdn.rawgit.com/kimmobrunfeldt/progressbar.js/0.5.6/dist/progressbar.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+      <script src="dist/aos.js"></script>
+</body>
+
+</html>

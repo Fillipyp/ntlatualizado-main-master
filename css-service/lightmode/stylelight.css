@@ -1,0 +1,341 @@
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(204, 204, 204);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--verde);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--verde);
+}
+
+:root {
+  --verde: var(#38a3a5);
+}
+body {
+  background-color: #f5f6fa;
+}
+.nomeempresa {
+  width: 200px;
+  height: 60px;
+}
+
+.troca-container {
+  margin: 10px;
+  margin-top: 25px;
+  width: 80px;
+}
+
+.troca {
+  visibility: hidden;
+  position: absolute;
+}
+
+.troca + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+
+.troca--sombra + label {
+  width: 60px;
+  height: 30px;
+  background-color: #2d2d2d;
+  border-radius: 60px;
+}
+
+.troca--sombra + label:before,
+.troca--sombra + label:after {
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  content: "";
+}
+
+.troca--sombra + label:before {
+  right: 1px;
+  background-color: #2d2d2d;
+  border-radius: 60px;
+  transition: background 0.4s;
+}
+
+.troca--sombra + label:after {
+  width: 30px;
+  background-color: #d4fffe;
+  border-radius: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s;
+}
+
+.troca--sombra:checked + label:before {
+  background-color: #32a8a5;
+}
+
+.troca--sombra:checked + label:after {
+  transform: translateX(30px);
+}
+
+
+/*********************************************configurações de texto do site *********************************/
+h1,
+h2 {
+  color: #242323;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+h3 {
+  color: #242323;
+  font-size: 30px;
+}
+
+.textoinicio {
+  font-weight: 500;
+  font-size: 47px;
+  color: #242323;
+}
+.descricao-inicio {
+  font-size: 17px;
+}
+
+
+p {
+  font-family: "Mulish", sans-serif;
+  color: #000;
+}
+
+
+/*******************************************final das configurações de texto *******************************/
+
+/*******************************************espaçamentos do site*******************************************/
+
+/***************************************************final espaçamentos do site ****************************************/
+
+a {
+  color: #a8a8b3;
+}
+a:hover {
+  color: #868691;
+}
+
+.page-header {
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 700vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carregar {
+  margin: auto;
+  height: 100%;
+  display: block;
+  width: 50%;
+  padding: 200px;
+}
+
+.progress {
+  height: 300px;
+  background-color: transparent;
+}
+
+.progress > svg {
+  height: 100%;
+  display: block;
+}
+
+/*MAX WIDTH DO SITE*/
+@media (max-width: 1000px) {
+  h2 {
+    font-size: 25px !important;
+  }
+  .card-light {
+    background-color: rgb(207, 203, 203);
+
+  }
+
+  .card-p-light {
+    color: #000000;
+    font-size: 12px;
+  }
+
+  .card-h4-light {
+    color: #242323;
+  }
+  .icone {
+    width: 30px;
+    height: 30px;
+  }
+
+ 
+  h1 {
+    font-size: 25px;
+  }
+}
+/*MIN WIDTH DO SITE*/
+@media (min-width: 1000px) {
+  .btncontato {
+    display: inline-block;
+    padding: 10px 30px;
+    width: 150px;
+    background: linear-gradient(137.16deg, #2afadf 0%, #4c83ff 121.75%);
+    text-align: center;
+    font-size: 15px !important;
+    border-radius: 30px;
+    color: #000 !important;
+    transition: 1s ease-in-out;
+  }
+  .btncontato:hover {
+    transition: 1s ease-out;
+    color: #fff !important;
+    background-color: transparent !important;
+  }
+  
+}
+
+.card-light {
+  background-color: rgb(63, 63, 63);
+}
+
+.card-p-light {
+  color: #cecece;
+  font-size: 15px;
+}
+
+.card-h4-light {
+  color: #e4e4e4;
+  font-weight: 700;
+}
+.icone {
+  width: 30px;
+  height: 30px;
+}
+.icone {
+  opacity: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+
+
+/*botoes rede social*/
+.social-media {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid;
+  margin: 0 25px;
+  position: relative;
+  transition: all 0.3s;
+  overflow: hidden;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0, 15);
+}
+.social-media img {
+  width: 23px;
+  height: 23px;
+}
+
+.social-media i {
+  font-size: 40px;
+  transition: all 0.3s;
+  color: #fff;
+}
+
+.social-media span {
+  position: absolute;
+  transform: translateY(-100px);
+  text-transform: uppercase;
+  font-family: "Raleway";
+  transition: all 0.3s;
+}
+
+.social-media-light:nth-child(1) {
+  border-color: #615f5f;
+  background-color: #706d6d;
+}
+
+.social-media-light:nth-child(2) {
+  border-color: #615f5f;
+  background-color: #706d6d;
+}
+
+.social-media-light:nth-child(3) {
+  border-color: #615f5f;
+  background-color: #706d6d;
+}
+
+.social-media:hover {
+  border-radius: 30px;
+  padding: 16px 60px;
+  background-color: var(--verde);
+}
+
+@media (max-width: 1000px) {
+  .social-media:hover {
+    border-radius: 30px;
+    padding: 16px 50px;
+    background-color: var(--verde);
+  }
+}
+.social-media:hover i {
+  transform: translateY(100px);
+}
+
+.social-media:hover span {
+  transform: translateY(0);
+}
+
+.social-media:nth-child(1):hover span {
+  color: #000;
+  font-size: 15px;
+}
+.social-media:nth-child(1):hover img {
+  opacity: 0;
+}
+
+.social-media:nth-child(2):hover span {
+  color: #000;
+  font-size: 15px;
+}
+.social-media:nth-child(2):hover img {
+  opacity: 0;
+}
+
+.social-media:nth-child(3):hover span {
+  color: #000;
+  font-size: 15px;
+}
+.social-media:nth-child(3):hover img {
+  opacity: 0;
+}
+/*final botoes redes sociais*/
+
+.footer-light {
+  background-color: #e0dede;
+  color: rgb(37, 37, 37);
+  font-size: 14px;
+}
+.footer,
+p {
+  font-size: 15px;
+}
+.direitos {
+  font-size: 12px;
+}

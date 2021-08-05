@@ -1,0 +1,315 @@
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(39, 39, 38);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--verde);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--verde);
+}
+
+:root {
+  --verde: var(#38a3a5);
+}
+
+body {
+  background-image: linear-gradient(to right, black, rgb(34, 34, 37));
+}
+
+.nomeempresa {
+  width: 200px;
+  height: 60px;
+}
+
+#img-dark {
+  visibility: visible;
+}
+
+/*******************************************CONFIGURAÇÕES TEXTO DO SITE DARK*************/
+
+.text-modal-dark {
+  color: white !important;
+}
+
+.descricao-inicio {
+  font-size: 17px;
+}
+
+h1,
+h2 {
+  color: #c2c2c2;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.color-title {
+  background: linear-gradient(
+    271.28deg,
+    #e0f9b8 -1.29%,
+    #47e9ea 53.12%,
+    #0e92ff 117.3%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3 {
+  color: #c2c2c2;
+  font-size: 30px;
+}
+
+.paragrafoescolha {
+  font-size: 20px;
+}
+
+.text-dark{
+  color: #c2c2c2;
+}
+
+a {
+  color: #a8a8b3;
+}
+a:hover {
+  color: #868691;
+}
+
+.titulo-politica {
+  font-size: 50px;
+  margin-bottom: 30px;
+  background: linear-gradient(
+    271.28deg,
+    #e0f9b8 -1.29%,
+    #47e9ea 53.12%,
+    #0e92ff 117.3%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+/************************************FINAL CONFIGURAÇÃO TEXTO SITE******************************/
+.troca-container {
+  margin: 10px;
+  margin-top: 25px;
+  width: 80px;
+}
+
+.troca {
+  visibility: hidden;
+  position: absolute;
+}
+
+.troca + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+
+.troca--sombra + label {
+  width: 60px;
+  height: 30px;
+  background-color: #2d2d2d;
+  border-radius: 60px;
+}
+
+.troca--sombra + label:before,
+.troca--sombra + label:after {
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  content: "";
+}
+
+.troca--sombra + label:before {
+  right: 1px;
+  background-color: #2d2d2d;
+  border-radius: 60px;
+  transition: background 0.4s;
+}
+
+.troca--sombra + label:after {
+  width: 30px;
+  background-color: #d4fffe;
+  border-radius: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s;
+}
+
+.troca--sombra:checked + label:before {
+  background-color: #32a8a5;
+}
+
+.troca--sombra:checked + label:after {
+  transform: translateX(30px);
+}
+
+.hr-dark {
+  color: white;
+}
+
+.page-header {
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 700vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carregar {
+  margin: auto;
+  height: 100%;
+  display: block;
+  width: 50%;
+  padding: 200px;
+}
+
+.progress {
+  height: 300px;
+  background-color: transparent;
+}
+
+.progress > svg {
+  height: 100%;
+  display: block;
+}
+
+p {
+  font-family: "Mulish", sans-serif;
+  color: #fff;
+}
+
+.parceiros {
+  font-size: 22px;
+  color: rgb(125, 125, 125);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/*inicio servicos*/
+
+.textoinicio {
+  font-weight: 500;
+  font-size: 47px;
+  background: linear-gradient(
+    271.28deg,
+    #e0f9b8 -1.29%,
+    #47e9ea 53.12%,
+    #0e92ff 117.3%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*MAX WIDTH DO SITE*/
+@media (max-width: 1000px) {
+  .card-dark {
+    background-color: #E0E0E0;
+  }
+
+  .card-p-dark {
+    color: #272727;
+    font-size: 15px;
+  }
+
+  .card-h4-dark {
+    color: #5A5A5A;
+  }
+  .icone {
+    width: 30px;
+    height: 30px;
+  }
+  .textoinicio {
+    font-weight: 500;
+    font-size: 30px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+}
+/*MIN WIDTH DO SITE*/
+@media (min-width: 1000px) {
+
+  .btncontato {
+    display: inline-block;
+    padding: 10px 30px;
+    width: 150px;
+    background: linear-gradient(
+      93.45deg,
+      #13729a -10.25%,
+      #3fd0a5 73.48%,
+      #28b9f5 156.36%,
+      rgba(37, 193, 196, 0) 209.9%
+    );
+    text-align: center;
+    font-size: 15px !important;
+    border-radius: 30px;
+    color: #fff !important;
+    transition: 1s ease-in-out;
+  }
+  .btncontato:hover {
+    transition: 1s ease-out;
+    color: #fff !important;
+    background-color: transparent !important;
+  }
+  
+  .card-dark {
+    background-color: #E0E0E0;
+    /* padding-bottom: 50px; */
+    /* border-radius: 10px; */
+  }
+
+  .card-p-dark {
+    color: #2c2c2c;
+    font-size: 15px;
+  }
+
+  .card-h4-dark {
+    color: #5A5A5A;
+    font-weight: 700;
+  }
+
+}
+  .icone {
+    opacity: 50%;
+    width: 40px;
+    height: 40px;
+  }
+
+  .featurette-heading-lado {
+    margin-top: 7rem;
+    text-align: right;
+  }
+
+.footer {
+  background-color: #121214;
+  color: rgb(221, 221, 221);
+  font-size: 14px;
+}
+
+.footer p {
+  font-size: 15px;
+}
+.direitos {
+  font-size: 12px;
+}
